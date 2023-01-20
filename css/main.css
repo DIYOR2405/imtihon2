@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: space-around;
   background: #495567;
+  margin-top: 100px;
 }
 .footer__top h2 {
   font-size: 50px;
@@ -157,10 +158,10 @@ main .hearor .chiziq {
   z-index: -1;
   margin-top: 40px;
   margin-right: 200px;
-  margin-left: -220px;
+  margin-left: -240px;
 }
 main .hearor__cards {
-  width: auto;
+  width: 400px;
   text-align: start;
 }
 main .hearor__cards h2 {
@@ -203,20 +204,21 @@ main .hero__page {
   display: flex;
 }
 main .hero__page .strelka-ong {
-  position: absolute;
-  z-index: 1;
-  width: 735px;
-  height: 240px;
-  padding-right: 65px;
+  width: 935px;
+  height: 500px;
+  padding-top: 330px;
 }
 main .hero__page .strelka-chap {
-  position: absolute;
-  z-index: 1;
-  width: 500px;
-  height: 200px;
+  width: 400px;
+  height: 150px;
+  margin-top: 150px;
+}
+main .hero .strelkaa {
+  margin-left: 505px;
 }
 main .hero__text {
-  margin-left: 100px;
+  margin-left: 150px;
+  position: absolute;
 }
 main .hero__text h2 {
   font-size: 50px;
@@ -232,6 +234,9 @@ main .hero__image {
   width: 450px;
   height: 450px;
   border-radius: 100%;
+  position: absolute;
+  z-index: -1;
+  margin-left: -550px;
 }
 main .hero__chap {
   padding-top: 100px;
@@ -251,7 +256,10 @@ main .hero__chap-img {
   width: 450px;
   height: 450px;
   border-radius: 100%;
-  margin-left: 100px;
+  margin-left: -250px;
+  margin-top: 100px;
+  position: absolute;
+  z-index: -1;
 }
 
 .header {

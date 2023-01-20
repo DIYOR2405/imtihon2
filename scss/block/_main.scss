@@ -8,7 +8,6 @@ main{
   height: 700px;
   background-image: url(/img/Bitmap.png);
   background-size: cover;
-  // background: #939caa2f;
   color: #fff;
   padding-top: 96px;
 
@@ -18,7 +17,6 @@ main{
     p{
       margin-left: 20px;
       padding-top: 10px;
-
     }
 
     .ong{
@@ -32,15 +30,15 @@ main{
        height: 100px;
        margin-right: 300px;
        margin-top: 40px;
-    }
-  }
+     }
+   }
 
   h1{
     font-size: 60px;
     padding-top: 120px;
     margin-left: 145px;
     padding-bottom: 20px;
-  }
+   }
 
   button{
     margin-left: 240px;
@@ -67,13 +65,12 @@ main{
     z-index: -1;
     margin-top: 40px;
     margin-right: 200px;
-    margin-left: -220px;
-
+    margin-left: -240px;
   }
 
 
   &__cards{
-     width: auto;
+     width: 400px;
      text-align: start;
 
 
@@ -84,7 +81,6 @@ main{
 
      p{
       color: #939CAA;
-
      }
 
 
@@ -110,7 +106,6 @@ main{
       width: 573px;
       text-align: center;
       margin-top: 100px;
-
     }
   }
 
@@ -118,7 +113,7 @@ main{
     display: block;
     margin-top: 300px;
 
-    .hero__page{
+     .hero__page{
       display: block;
 
     }
@@ -134,33 +129,32 @@ main{
     &__page{
       display: flex;
 
+
       .strelka-ong{
-        position: absolute;
-        z-index: 1;
-        width: 735px;
-        height: 240px;
-        padding-right: 65px;
-        // padding-top: 40px;
+        width: 935px;
+        height: 500px;
+        padding-top: 330px;
       }
 
       .strelka-chap{
-        position: absolute;
-        z-index: 1;
-        width: 500px;
-        height: 200px;
-
+        width: 400px;
+        height: 150px;
+        margin-top: 150px;
       }
+    }
 
+    .strelkaa{
+      margin-left: 505px;
     }
 
    &__text{
-     margin-left: 100px;
+     margin-left: 150px;
+     position: absolute;
+
 
     h2{
       font-size: 50px;
       color: #495567;
-
-
     }
 
     p{
@@ -168,7 +162,7 @@ main{
       color: rgba(0, 0, 0, 0.552);
       margin-top: 25px;
       margin-bottom: 40px ;
-    }
+     }
    }
 
 
@@ -176,7 +170,9 @@ main{
     width: 450px;
     height: 450px;
     border-radius: 100%;
-    // position: absolute;
+    position: absolute;
+    z-index: -1;
+    margin-left: -550px;
    }
 
    &__chap{
@@ -186,7 +182,6 @@ main{
     h2{
       font-size: 50px;
       color: #495567;
-
     }
 
     p{
@@ -195,24 +190,19 @@ main{
       margin-top: 25px;
       margin-bottom: 40px ;
     }
-
   }
 
   &__chap-img{
     width: 450px;
     height: 450px;
     border-radius: 100%;
-    margin-left: 100px;
+    margin-left: -250px;
+    margin-top: 100px;
+    position: absolute;
+    z-index: -1;
+   }
+
+
   }
-
-
-
-  }
-
-
-
-
-
-
 
 }

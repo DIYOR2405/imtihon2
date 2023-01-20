@@ -9,14 +9,14 @@
     align-items: center;
     justify-content: space-around;
     background: #495567;
-
+    margin-top: 100px;
 
 
     h2{
       font-size: 50px;
       color: white;
       margin-left: 100px;
-    }
+   }
 
     ul{
       display: inline-flex;
@@ -29,7 +29,6 @@
     img{
       width: 160px;
       height: 60px;
-
     }
   }
 
@@ -62,7 +61,6 @@
 
       .face{
         margin-left: -150px;
-
       }
     }
 
@@ -89,8 +87,6 @@
       }
     }
   }
-
-
 
 
 }
