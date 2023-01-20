@@ -1,0 +1,218 @@
+main{
+  width: 100%;
+  height: auto;
+
+
+ .container{
+  width: 1440px;
+  height: 700px;
+  background-image: url(/img/Bitmap.png);
+  background-size: cover;
+  // background: #939caa2f;
+  color: #fff;
+  padding-top: 96px;
+
+  &__text{
+    display: flex;
+
+    p{
+      margin-left: 20px;
+      padding-top: 10px;
+
+    }
+
+    .ong{
+      width: 202px;
+      height: auto;
+      margin-right: 20px;
+    }
+
+    .chap{
+       width: 446px;
+       height: 100px;
+       margin-right: 300px;
+       margin-top: 40px;
+    }
+  }
+
+  h1{
+    font-size: 60px;
+    padding-top: 120px;
+    margin-left: 145px;
+    padding-bottom: 20px;
+  }
+
+  button{
+    margin-left: 240px;
+  }
+
+ }
+
+
+ .hearor{
+  width: 1275px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 0 ;
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+
+  .chiziq{
+    width: 1000px;
+    height: 20px;
+    position: absolute;
+    float: left;
+    background-color: rgba(139, 177, 164, 0.275);
+    z-index: -1;
+    margin-top: 40px;
+    margin-right: 200px;
+    margin-left: -220px;
+
+  }
+
+
+  &__cards{
+     width: auto;
+     text-align: start;
+
+
+     h2{
+     color: #495567;
+     font-size: 24px;
+     }
+
+     p{
+      color: #939CAA;
+
+     }
+
+
+    &__item{
+
+      img{
+        width: 96px;
+        height: 96px;
+      }
+    }
+  }
+ }
+
+ @media only screen and (max-width: 375px){
+  width: 100%;
+
+
+  .hearor{
+    display: block;
+    text-align: center;
+
+    &__cards{
+      width: 573px;
+      text-align: center;
+      margin-top: 100px;
+
+    }
+  }
+
+  .hero{
+    display: block;
+    margin-top: 300px;
+
+    .hero__page{
+      display: block;
+
+    }
+  }
+ }
+
+
+  .hero{
+    width: 100%;
+    height: auto;
+
+
+    &__page{
+      display: flex;
+
+      .strelka-ong{
+        position: absolute;
+        z-index: 1;
+        width: 735px;
+        height: 240px;
+        padding-right: 65px;
+        // padding-top: 40px;
+      }
+
+      .strelka-chap{
+        position: absolute;
+        z-index: 1;
+        width: 500px;
+        height: 200px;
+
+      }
+
+    }
+
+   &__text{
+     margin-left: 100px;
+
+    h2{
+      font-size: 50px;
+      color: #495567;
+
+
+    }
+
+    p{
+      font-size: 15px;
+      color: rgba(0, 0, 0, 0.552);
+      margin-top: 25px;
+      margin-bottom: 40px ;
+    }
+   }
+
+
+   &__image{
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    // position: absolute;
+   }
+
+   &__chap{
+    padding-top: 100px;
+    padding-bottom: 200px;
+
+    h2{
+      font-size: 50px;
+      color: #495567;
+
+    }
+
+    p{
+      font-size: 15px;
+      color: rgba(0, 0, 0, 0.552);
+      margin-top: 25px;
+      margin-bottom: 40px ;
+    }
+
+  }
+
+  &__chap-img{
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+    margin-left: 100px;
+  }
+
+
+
+  }
+
+
+
+
+
+
+
+}
